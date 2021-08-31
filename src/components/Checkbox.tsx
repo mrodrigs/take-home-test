@@ -52,7 +52,7 @@ const Checkbox: React.FC<CheckboxProps> = ({
         checked={checked}
         id={id}
         onChange={onChange}
-        onClick={event => preventClickPropagation(event)}
+        onClick={preventClickPropagation}
       />
       {getAppearance()}
       {label && <Text>{label}</Text>}

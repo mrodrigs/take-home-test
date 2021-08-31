@@ -50,7 +50,7 @@ export const Container = styled.div<ContainerProps>`
 export const DropdownIcon = styled.img.attrs({
   src: '/assets/icons/dropdownIcon.svg',
 })<DropdownIconProps>`
-  transform: ${({ isExpanded }) => (isExpanded ? `rotate(-180deg)` : '')};
+  transform: ${({ isExpanded }) => isExpanded && `rotate(-180deg)`};
   transition: all 0.3s ease-out;
 `;
 
