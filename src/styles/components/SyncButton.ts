@@ -16,7 +16,11 @@ export const Button = styled.button<ButtonProps>`
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 110px 28px 0 28px;
+  margin: 110px 28px;
+
+  @media (max-width: 800px) {
+    margin: 28px 0 14px 0;
+  }
 `;
 
 export const SyncIcon = styled.img.attrs({
