@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import CheckboxAppearance from 'types/CheckboxAppearance';
+import type CheckboxAppearance from 'types/CheckboxAppearance';
 
 interface CustomCheckboxProps {
   checked: boolean;

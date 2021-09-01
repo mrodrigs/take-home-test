@@ -8,7 +8,7 @@ import {
   Text,
   UncheckedIcon,
 } from 'styles/components/Checkbox';
-import CheckboxAppearance from 'types/CheckboxAppearance';
+import type CheckboxAppearance from 'types/CheckboxAppearance';
 
 interface CheckboxProps {
   appearance: CheckboxAppearance;

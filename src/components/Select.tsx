@@ -9,7 +9,7 @@ import {
   SelectWrapper,
   Text,
 } from 'styles/components/Select';
-import ContactCategory from 'types/interfaces/ContactCategories';
+import type ContactCategory from 'types/interfaces/ContactCategories';
 
 interface SelectInputProps {
   contactCategories: ContactCategory[];
