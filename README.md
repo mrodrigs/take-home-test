@@ -1,34 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🏠 **Take-home-test - [Trio.dev](trio.dev)**
 
-## Getting Started
+This project was built based on React 17 and NextJS 11.
 
-First, run the development server:
+## 📦 Project dependencies
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+* [ESLint](https://eslint.org/)
+* [NextJS](https://github.com/isaachinman/next-i18next)
+* [Prettier](https://prettier.io/)
+* [ReactJS](https://pt-br.reactjs.org/)
+* [Styled-components](https://styled-components.com/)
+* [Typescript](https://www.typescriptlang.org/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## 🏃 How to run it
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+1 - Requirements:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+* Current, active LTS or maintenance LTS version of [Node.js](https://nodejs.org/en/download/)
+* [Yarn](https://yarnpkg.com/) package manager
 
-## Learn More
+2 - Clone this project locally.
 
-To learn more about Next.js, take a look at the following resources:
+3 - Install project dependencies by running `yarn install`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4 - Run `yarn dev` for a dev server. The project will be available at [https://localhost:3000/](https://localhost:3000/).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 💻 Coding requirements
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* ESLint Extension for [VSCode](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) or [WebStorm](https://www.jetbrains.com/help/webstorm/eslint.html)
+* Styled Components Extension for [VSCode](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components) or [WebStorm](https://plugins.jetbrains.com/plugin/9997-styled-components--styled-jsx)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+
+## 🏗 Build
+
+Run `yarn build` to build the project. The build artifacts will be stored in the `.next/` directory.
+
+The last generated build can be runned by running `yarn start`.
+
+---
+
+## 🧪 Running tests
+
+### Unit tests
+
+Run `yarn test` to execute the unit tests via [Jest](https://jestjs.io/docs/en/getting-started.html).
+
+---
+
+Made with 💖 by [Maurício Rodrigues](mrodrigues.dev)
