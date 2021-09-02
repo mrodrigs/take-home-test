@@ -1,13 +1,15 @@
-# 🏠 **Take-home-test - [Trio.dev](trio.dev)**
+# 🏠 **Take-home-test - [Trio.dev](https://trio.dev/)**
 
 This project was built based on React 17 and NextJS 11.
 
 ## 📦 Project dependencies
 
 * [ESLint](https://eslint.org/)
+* [Jest](https://jestjs.io/pt-BR/)
 * [NextJS](https://github.com/isaachinman/next-i18next)
 * [Prettier](https://prettier.io/)
 * [ReactJS](https://pt-br.reactjs.org/)
+* [React-testing-library](https://testing-library.com/docs/react-testing-library/intro/)
 * [Styled-components](https://styled-components.com/)
 * [Typescript](https://www.typescriptlang.org/)
 

@@ -60,6 +60,7 @@ const SelectInput: React.FC<SelectInputProps> = ({ contactCategories }) => {
           <Checkbox
             appearance="outline"
             checked={isAllSelected}
+            id="select-all-checkbox"
             onChange={toggleSelectAllCategories}
           />
           <Text>All contacts</Text>

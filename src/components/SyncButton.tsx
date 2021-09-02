@@ -11,7 +11,11 @@ const SyncButton: React.FC = () => {
 
   return (
     <Container>
-      <Button isSynced={isSynced} onClick={toggleSync}>
+      <Button
+        isSynced={isSynced}
+        onClick={toggleSync}
+        data-testid="sync-button"
+      >
         <SyncIcon />
       </Button>
       <Title>{isSynced ? 'All done!' : 'Sync Contacts'}</Title>
