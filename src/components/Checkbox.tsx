@@ -11,16 +11,16 @@ import {
 import type CheckboxAppearance from 'types/CheckboxAppearance';
 
 interface CheckboxProps {
-  appearance: CheckboxAppearance;
+  appearance?: CheckboxAppearance;
   checked?: boolean;
   id?: string;
   label?: string;
-  onChange: ChangeEventHandler<HTMLInputElement>;
+  onChange?: ChangeEventHandler<HTMLInputElement>;
 }
 
 const Checkbox: React.FC<CheckboxProps> = ({
   appearance = 'default',
-  checked = false,
+  checked,
   id,
   label,
   onChange,
@@ -39,7 +39,7 @@ const Checkbox: React.FC<CheckboxProps> = ({
         );
       default:
         return (
-          <CustomCheckbox checked={checked}>
+          <CustomCheckbox checked={checked || false}>
             <CheckIcon appearance={appearance} />
           </CustomCheckbox>
         );
@@ -50,6 +50,7 @@ const Checkbox: React.FC<CheckboxProps> = ({
     <Label htmlFor={id}>
       <CheckboxInput
         checked={checked}
+        data-testid={id}
         id={id}
         onChange={onChange}
         onClick={preventClickPropagation}
