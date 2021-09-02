@@ -2,6 +2,13 @@
 
 This project was built based on React 17 and NextJS 11.
 
+---
+
+## ⚛ Demo
+[Live demo](https://take-home-test.netlify.app/)
+
+---
+
 ## 📦 Project dependencies
 
 * [ESLint](https://eslint.org/)
