@@ -3,7 +3,7 @@ import { fireEvent, render } from '@testing-library/react';
 import Select from 'components/Select';
 import serviceCategories from '__mocks__/serviceCategories';
 
-describe('Checkbox', () => {
+describe('Select', () => {
   it('should be able to be check all contacts at once', () => {
     const { getAllByRole, getByTestId } = render(
       <Select contactCategories={serviceCategories} />,
