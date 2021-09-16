@@ -9,6 +9,11 @@ This project was built based on React 17 and NextJS 11.
 
 ---
 
+## 🎥 About the code video
+[YouTube](https://www.youtube.com/watch?v=xjT-GNsgzqA)
+
+---
+
 ## 📦 Project dependencies
 
 * [ESLint](https://eslint.org/)
